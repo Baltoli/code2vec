@@ -58,9 +58,9 @@ class Config:
 
         # model hyper-params
         self.MAX_CONTEXTS = 200
-        self.MAX_TOKEN_VOCAB_SIZE = 1301136
-        self.MAX_TARGET_VOCAB_SIZE = 261245
-        self.MAX_PATH_VOCAB_SIZE = 911417
+        self.MAX_TOKEN_VOCAB_SIZE = 1301136//2
+        self.MAX_TARGET_VOCAB_SIZE = 261245//2
+        self.MAX_PATH_VOCAB_SIZE = 911417//2
         self.DEFAULT_EMBEDDINGS_SIZE = 128
         self.TOKEN_EMBEDDINGS_SIZE = self.DEFAULT_EMBEDDINGS_SIZE
         self.PATH_EMBEDDINGS_SIZE = self.DEFAULT_EMBEDDINGS_SIZE
